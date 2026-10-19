@@ -1,0 +1,27 @@
+# ---- 构建产物 ----
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ---- 运行时产生的内容 ----
+data/
+*.log
+startup-trace.txt
+
+# ---- 本地开发材料（含本机绝对路径 / 桌面截图，默认不上传）----
+# 想把开发日志与测试脚本一起公开：先清掉其中的用户名、会话 ID 等信息，再删掉下面两行。
+tools/
+PROGRESS.md
+
+# ---- 其它 ----
+Thumbs.db
+desktop.ini
+*.tmp
+*.orig
+*.rej
